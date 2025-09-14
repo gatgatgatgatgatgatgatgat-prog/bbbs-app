@@ -17,9 +17,7 @@
   <ul id="posts"></ul>
 
   <script>
-    const API_URL = "https://script.google.com/macros/s/AKfycbzZFLyqRrAqPE1auvAYQqU6rZFnD7mvqIzQnDQqSXxm4cP7eH8KlFhPxSREKSmcQfynqw/exec
-";
-
+    const API_URL = "https://script.google.com/macros/s/AKfycbxRRXq96080azXHOTWLqHJ_w6Pq5_K0duZTJYnAZuK97tPIrgcuAkOv1CX5xOI1HKqR0A/exec";
     async function fetchPosts() {
       const res = await fetch(API_URL);
       const json = await res.json();
